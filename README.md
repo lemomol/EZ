@@ -1,0 +1,2 @@
+# EZ
+my first website
