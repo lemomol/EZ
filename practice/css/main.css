@@ -1,0 +1,68 @@
+*{ margin:0; padding:0; list-style:none;}
+body{ font-size:12px;}
+
+#menu{width:750px; overflow:hidden; margin:100px auto;border:1px solid #BF9660;}
+#menu #nav {display:block;width:100%;padding:0;margin:0;list-style:none;}
+#menu #nav li {float:left;width:33.3%;}
+#menu #nav li a {display:block;line-height:27px;text-decoration:none;padding:0 0 0 5px; text-align:center; color:#333;}
+#menu_con{ width:750px; border-top:none; height: 500px;}
+.tag{padding-top: 30px;}
+.selected{background:#C5A069; color:#fff;}
+
+/*轮播图*/
+#banner_box{position: relative; overflow: hidden; width: 750px; height: 300px;}
+#list{position: absolute;z-index: 1; height: 300px; width: 3750px;}
+#list img{float: left;}
+#buttons { position: absolute; height: 10px; width: 100px; z-index: 2; bottom: 60px; left: 350px;}
+#buttons span { cursor: pointer; float: left; border: 1px solid #fff; width: 10px; height: 10px; border-radius: 50%; background: #333; margin-right: 5px;}
+#buttons .on {  background: orangered;}
+.arrow { cursor: pointer; display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 180px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow:hover { background-color: RGBA(0,0,0,.7);}
+#banner_box:hover .arrow { display: block;}
+#prev { left: 20px;}
+#next { right: 20px;}
+
+/*form表单*/
+.form_box{width: 700px; margin: 50px 25px; display: block;}
+.form_box li{width: 700px; display: inline-block; height: 28px; line-height: 28px; margin: 10px 0; text-align: center;}
+.form_box label{margin: auto 10px; display: inline-block; height: 28px; line-height: 28px;}
+.form_box span{display: inline-block; height: 28px; line-height: 28px;}
+.sub_btn{width: 100px;}
+
+/*时间闹钟*/
+.Date_box{width: 500px; margin: 125px; }
+#Date_d, #Date_t{border: none; display: inline-block; height: 30px; line-height: 30px; width: 500px; text-align: center; margin: 25px auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="javascript/datetime.js"></script>
+    <script type="text/javascript" src="javascript/banner.js"></script>
+</head>
+<body>
+<div id="menu">
+    <!--tag标题-->
+    <ul id="nav">
+        <li class="m_li"><a href="#" class="selected">展示banner</a></li>
+        <li class="m_li"><a href="#" class="">表单提交</a></li>
+        <li class="m_li"><a href="#" class="">时间闹钟</a></li>
+    </ul>
+    <!--二级菜单-->
+    <div id="menu_con">
+        <div class="tag" style="display:block">
+            <div id="banner_box">
+                <div id="list" style="left: -750px;">
+                    <img src="images/20130624054522839_r1_c1.jpg"  alt=""/>
+                    <img src="images/80e7b1364aa0cd0114b7290217ec9c63_r1_c1.jpg" alt=""/>
+                    <img src="images/af10f96ccc9522bd0fbd3a93bd3e4f4a_r1_c1.jpg"  alt=""/>
+                    <img src="images/20130624054522839_r1_c1.jpg"  alt=""/>
+                    <img src="images/80e7b1364aa0cd0114b7290217ec9c63_r1_c1.jpg" alt=""/>
+                    <div class="clear"></div>
+                </div>
+                <div id="buttons">
+                    <span index="1" class="on"></span>
+                    <span index="2"></span>
+                    <span index="3"></span>
+                </div>
+                <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+                <a href="javascript:;" id="next" class="arrow">&gt;</a>
+            </div>
+        </div>
+        <div class="tag" style="display:none">
+            <form>
+                <ul class="form_box">
+                    <li><span>姓名：</span><input  placeholder="李四" class="btn"></li>
+                    <li><span>生日：</span><input  placeholder="2015-5-06" id="birthday" class="Wdate btn" onclick="WdatePicker({maxDate:new Date()})"></li>
+                    <li><span>性别：</span><input type="radio" checked="checked" name="radio"><label>男</label><input type="radio" name="radio"><label>女</label></li>
+                    <li><input type="submit" value="确定" class="sub_btn" onclick="xing()"></li>
+                </ul>
+            </form>
+        </div>
+        <div class="tag"  style="display:none">
+            <form class="Date_box">
+                <input type="text" id="Date_d" />
+                <input type="text" id="Date_t" />
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="javascript/tabview.js"></script>
+<script type="text/javascript" src="javascript/alert.js"></script>
+</body>
+</html>
